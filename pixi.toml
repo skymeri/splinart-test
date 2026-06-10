@@ -1,0 +1,10 @@
+[workspace]
+channels = ["conda-forge"]
+name = "stage5"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pre-commit = ">=4.6.0,<5"

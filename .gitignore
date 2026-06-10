@@ -1,0 +1,7 @@
+__pycache__
+_build
+dist
+*.egg
+*.pyc# pixi environments
+.pixi/*
+!.pixi/config.toml
