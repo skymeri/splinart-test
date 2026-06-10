@@ -2,6 +2,9 @@ name: splinart
 channels:
   - conda-forge
 dependencies:
+  - numpy
+  - matplotlib
+  - scipy
   - notebook
   - sphinx
   - nbsphinx
