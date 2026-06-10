@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "release-type": "python",
+    "include-component-in-tag": false,
+    "packages": {
+        ".": {
+            "package-name": "splinart-2026",
+            "changelog-path": "CHANGELOG.md",
+            "extra-files": [
+                {
+                    "type": "generic",
+                    "path": "splinart/version.py",
+                    "pattern": "__version__ = \"([^\"]+)\""
+                }
+            ]
+        }
+    }
+}
