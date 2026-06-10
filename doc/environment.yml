@@ -5,6 +5,7 @@ dependencies:
   - numpy
   - matplotlib
   - scipy
+  - "docutils<0.21"
   - notebook
   - sphinx
   - nbsphinx
